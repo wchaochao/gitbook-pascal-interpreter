@@ -14,7 +14,7 @@
 export class AST {}
 ```
 
-## Num
+## Num类
 
 数字节点，记录数字的值
 
@@ -28,7 +28,7 @@ export class Num extends AST {
 }
 ```
 
-## Var
+## Var类
 
 变量节点，记录变量名
 
@@ -42,7 +42,7 @@ export class Var extends AST {
 }
 ```
 
-## UnaryOp
+## UnaryOp类
 
 一元表达式节点，记录一元操作符和操作数
 
@@ -56,7 +56,7 @@ export class UnaryOp extends AST {
 }
 ```
 
-## BinOp
+## BinOp类
 
 二元表达式节点，记录二元操作符和操作数
 
@@ -71,7 +71,7 @@ export class BinOp extends AST {
 }
 ```
 
-## NoOp
+## NoOp类
 
 空语句节点
 
@@ -83,7 +83,7 @@ export class NoOp extends AST {
 }
 ```
 
-## Assign
+## Assign类
 
 赋值语句节点，记录左边变量和右边表达式
 
@@ -98,7 +98,7 @@ export class Assign extends AST {
 }
 ```
 
-## ProcedureCall
+## ProcedureCall类
 
 过程调用节点，记录过程名和实参
 
@@ -113,7 +113,7 @@ export class ProcedureCall extends AST {
 }
 ```
 
-## Compound
+## Compound类
 
 复合语句节点，记录包含的语句列表
 
@@ -126,7 +126,7 @@ export class Compound extends AST {
 }
 ```
 
-## Type
+## Type类
 
 类型节点，记录类型值
 
@@ -140,7 +140,7 @@ export class Type extends AST {
 }
 ```
 
-## VarDecl
+## VarDecl类
 
 变量声明节点，记录声明的变量和类型
 
@@ -154,7 +154,7 @@ export class VarDecl extends AST {
 }
 ```
 
-## Param
+## Param类
 
 形参节点，记录声明的形参和类型
 
@@ -168,7 +168,7 @@ export class Param extends AST {
 }
 ```
 
-## ProcedureDecl
+## ProcedureDecl类
 
 过程声明，记录声明的过程名、形参列表、代码块
 
@@ -184,7 +184,7 @@ export class ProcedureDecl extends AST {
 }
 ```
 
-## Block
+## Block类
 
 代码块节点，记录所有的声明和主复合语句
 
@@ -198,7 +198,7 @@ export class Block extends AST {
 }
 ```
 
-## Program
+## Program类
 
 程序节点，记录程序名和代码块
 

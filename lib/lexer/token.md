@@ -6,10 +6,9 @@
 
 程序中有意义的词
 
-## 组成
+## Token类
 
-* `type`: Token的类型
-* `value`: Token的值
+记录Token的类型和之
 
 ```javascript
 export default class Token {
@@ -20,7 +19,7 @@ export default class Token {
 }
 ```
 
-## 类型
+## Token类型
 
 ```javascript
 const tokenToType = {

@@ -31,7 +31,7 @@ export default class Context {
 
 ## getCorrespondContext()
 
-获取当前上下文中出现的变量实际对应的上下文
+沿着作用域链查找当前上下文中出现变量实际对应的上下文
 
 ```javascript
   getCorrespondContext (key) {

@@ -51,6 +51,6 @@ end.  { Main }
 * 词法分析：根据词法规则将源代码文本转换为Token流
 * 语法分析：根据语法规则将Token流转换为抽象语法树
 * 语义分析：遍历抽象语法树，进行静态检查，如变量声明、过程声明
-* 解释执行：遍历抽象语法树，在执行上下文中解释执行语句
+* 解释执行：遍历抽象语法树，在执行上下文中解释执行树节点
 
 ![Pascal解释器流程图](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-pascal-interpreter/interpreter-process.png)

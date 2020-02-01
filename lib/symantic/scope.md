@@ -6,11 +6,18 @@
 
 变量的作用范围
 
+## 作用域类型
+
 * Program作用域：关键字Program生成的作用域
 * Procedure作用域：关键字Procedure生成的作用域
+
+## 作用域关系
+
 * 作用域树：作用域与作用域之间的父子关系构成作用域树
  * 静态作用域，作用域的父子关系在声明时确定
 * 作用域链：作用域沿着父子关系形成的一条作用域链
+
+![作用域树](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-pascal-interpreter/scope-tree.png)
 
 ## ScopedSymbolTable类
 
